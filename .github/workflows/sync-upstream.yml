@@ -30,7 +30,7 @@ jobs:
       
       - name: 添加上游仓库
         run: |
-          # 添加chiupam/tieba作为上游仓库
+          # 添加cmliu/edgetunnel作为上游仓库
           git remote add upstream https://github.com/cmliu/edgetunnel.git
           git remote -v
       
